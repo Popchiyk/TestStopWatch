@@ -1,0 +1,11 @@
+<div class="mainBody">
+<div class="stopWatch">
+  {{stopwatch.hours}} <span>h</span> {{stopwatch.minutes}} <span>m</span>  {{stopwatch.seconds}} <span>s</span>  {{stopwatch.ms}} <span>ms</span>
+</div>
+<button (click)="startCount()" *ngIf="startBtn">Start</button>
+<div *ngIf="!startBtn">
+  <button (click)="stopTimer()">Stop</button>
+  <button (click)="dbClickCheck()" #dbClick>Wait</button>
+  <button (click)="resetTimer()">Reset</button>
+</div>
+</div>

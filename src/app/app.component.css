@@ -1,0 +1,32 @@
+.mainBody{
+    text-align: center;
+}
+
+.stopWatch {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.stopWatch span{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    outline: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: lightblue;
+}
+
+button:first-child{
+    margin-left: 0px;
+}
